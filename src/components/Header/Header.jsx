@@ -2,30 +2,36 @@ const Header = () => {
     return (
         <header className="header">
             <div className="header__navbox">
-                <div className="header__logo">
-                    <img src="./Logo.png" alt="Promitia" width={112} height={35}/>
-                </div>
                 <div className="link_container">
+                    <img className="header__logo" src="./Logo.png" alt="Promitia" width={112} height={35}/>
+                    <ul>
+                        <a href="#">BUY</a>
+                    </ul>
+                    <ul>
+                        <a href="#">SELL</a>
+                    </ul>
+                    <ul>
+                        <a href="#">MANAGE</a>
+                    </ul>
+                    <ul>
+                        <a href="#">INSTITUTIONS</a>
+                    </ul>
+                </div>
+                <div className="link_containerRight">
+                    <ul>
+                        <a href="#">LEARN</a>
+                    </ul>
                     <ul>
                         <a href="#">ABOUT US</a>
                     </ul>
                     <ul>
-                        <a href="#">SERVICES</a>
+                        <a href="#">TOOLS & CALCULATORS</a>
                     </ul>
                     <ul>
-                        <a href="#">OUR WORK</a>
+                        <a className="login" href="#">LOG IN</a>
                     </ul>
                     <ul>
-                        <a href="#">TECHNOLOGY</a>
-                    </ul>
-                    <ul>
-                        <a href="#">BLOG</a>
-                    </ul>
-                    <ul>
-                        <a href="#">CONTACT</a>
-                    </ul>
-                    <ul>
-                        <a href="https://api.whatsapp.com/send?phone=51981485983" target="_blank">+51 981 485 983</a>
+                        <a className="signup" href="#">SIGN UP</a>
                     </ul>
                 </div>
             </div>
